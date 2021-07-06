@@ -1,0 +1,500 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+#overlay{
+    
+    position: relative;
+    background-color: #22a39fcc;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+     justify-content: center;
+   
+
+    
+}
+.overlay{
+    position: absolute;
+    left: 0%;
+    width: 100%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background-origin: content-box;
+    opacity: 0.75;
+    filter: alpha(opacity=75);
+    z-index: 2;
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+.h1{
+    margin-top: 15%;
+    color: white;
+    font-family: 'Montserrat', calibri;
+    font-weight: bold;
+    font-size: 50px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #FFFFFF;
+    border-bottom-color: rgba(255,255,255,0.35);
+    display: inline-block;
+}
+.h3{
+
+    color: white;
+    font-family: 'Montserrat', calibri;
+    font-size: 30px;
+   
+}
+.contaracter h1{
+    color:#22a39f;
+    margin-top: 100vh;
+    position: relative;
+    font-weight: none;
+    font-size: 50px;
+    font-family: 'Montserrat', calibri;
+}
+.contaracter h2{
+    color: gray;
+    font-family:'Montserrat', calibri ;
+}
+.contaracter hr{
+    width: 81%;
+    background-color: gray;
+    margin-top: 5%;
+}
+.grids h1{
+    color: #22a39f;
+    font-family: 'Montserrat', calibri;
+}
+.grids img{
+    height: 200px;
+    
+
+}
+
+/*
+social media
+*/
+.social a{
+    text-decoration: none;
+    color: white;
+    margin-left: 3%;
+    font-size: 24px;
+}
+
+.social :nth-child(1):hover{
+    color: deeppink ;
+}
+.social :nth-child(2):hover{
+    color: blue ;
+}
+.social :nth-child(3):hover{
+    color: rgb(165, 163, 163) ;
+}
+.social :nth-child(4):hover{
+    color: dodgerblue ;
+}
+
+.grids a{
+    color: #22a39f;
+    font-size: 20px;
+    margin-left: 15px;
+    text-decoration: none;
+}
+.grids a:hover{
+    color: #649492;
+    transition: all 0.1s;
+}
+.donate button{
+    background-color: #eba83a;
+    border: none;
+    border-radius:10px;
+    font-weight: bold;
+    width: 100px;
+
+}
+.expe h1{
+    color: #22a39f;
+    font-family: 'Montserrat', calibri;
+}
+.expe p{
+    color: gray;
+    font-size: 20px;
+    font-family:'Montserrat', calibri ;
+} 
+.expe hr{
+    width: 85%;
+    background-color: gray;
+    margin-top: 5%;
+}
+.grids1 h1{
+    color: #22a39f;
+    font-family: 'Montserrat', calibri;
+}
+.abli{
+    border-bottom: 1px solid gray;
+    display: inline-block;
+}
+.abli h1{
+    color: #22a39f;
+    font-family: 'Montserrat', calibri;
+}
+.abli p{
+    color: gray;
+    font-size: 20px;
+    font-family:'Montserrat', calibri ;
+}
+.skills h1{
+    color: #22a39f;
+    font-family: 'Montserrat', calibri;
+}
+
+.skills .one {
+    margin-top: 2%;
+
+
+
+
+
+}
+.projects{
+    margin-top: 2%;
+}
+.container .projects{
+    margin-top: 2%;
+}
+.pro{
+    margin-top: 3%;
+    border-bottom: 1px solid gray;
+    padding-bottom: 3%;
+}
+.pro p{
+    color: gray;
+}
+.pro button{
+    border-radius: 5px;
+    background-color: #22a39f;
+    border: none;
+    padding: 4px 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    outline: none;
+    color: white;
+}
+.lang{
+    margin-top: 3%;
+    border-bottom: 1px solid gray;
+    padding-bottom: 2%;
+}
+.lang h1{
+    font-family: 'Montserrat', calibri;
+    color: #22a39f;
+}
+.lang1{
+    margin-top: 2%;
+}
+.tools{
+    margin-top: 3%;
+    border-bottom: 1px solid gray;
+    padding-bottom: 2%;
+
+}
+.tools h1{
+    color: #22a39f;
+    font-family: 'Montserrat', calibri;
+
+}
+.tool1{
+    margin-top: 2%;
+}
+.projects{
+    border-bottom: 1px solid gray;
+}
+.projects h1{
+    color: #22a39f;
+    font-family: 'Montserrat', calibri;
+}
+.projects p{
+    font-size: 20px;
+    color: gray;
+    font-family:'Montserrat', calibri ;
+}
+.projs{
+    margin-top: 2%;
+    padding-bottom: 2%;
+}
+.projs img{
+    width: 70%;
+    border: 2px solid transparent;
+
+}
+.projs img:hover{
+    border: 2px solid #22a39f;
+    transition: all 0.1s ;
+}
+.projs2{
+    margin-top: 2%;
+}
+.footer{
+    height:110vh;
+    width: 100%;
+    background-color: #727878;
+}
+.contact{
+    border-bottom: 1px solid gray;
+}
+.contact h1{
+    color: white;
+    font-family: 'Montserrat', calibri;
+    
+}
+.contact h4{
+    color: rgb(187, 181, 181);
+    font-family: 'Montserrat', calibri;
+}
+.links{
+    margin-top: 4%;
+    border-bottom: 1px solid gray;
+    padding-bottom: 20px;
+}
+.links p{
+    font-family: 'Monteserrat' , calibri;
+    font-size: 20px;
+    color: rgb(187, 181, 181);
+}
+.ayah{
+    text-align: center;
+    color: white;
+}
+
+/*
+media queries are starting here
+*/
+
+@media all and (max-width:600px){
+    #overlay h1{
+        margin-top: 45vh;
+        font-size: 30px;
+    }
+    #overlay h3{
+        font-size: 15px;
+    }
+}
+
+@media all and (max-width:550px){
+    .contaracter h1{
+        font-size: 37px;
+        font-weight: bold;
+    }
+    .contaracter h2{
+        font-size: 17px;
+    }
+}
+@media all and (max-width:436px){
+    .grids h1{
+        font-size: 25px;
+        text-align: center;
+        font-weight: bold;
+    }
+    .grids p{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .grids img{
+        width: 40%;
+        height: 100%;
+    }
+    .donate{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .expe h1{
+        font-size:25px;
+        font-weight: bold;
+    }
+    .expe p{
+        font-size: 14px;
+        margin:5%;
+    }
+    .grids1 h1{
+        text-align: center;
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .abli h1{
+        font-weight: bold;
+        font-size: 25px;
+    }
+    .abli p{
+        font-size: 14px;
+    }
+    .skills h1{
+        font-size: 25px;
+        text-align: center;
+        font-weight: bold;
+
+    }
+    .skills p{
+        font-size: 10px;
+    }
+    .lang h1{
+        font-size: 25px;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 5%;
+    }
+    .lang p{
+        font-size: 10px;
+    }
+    .tools h1{
+        font-size: 25px;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 5%;
+    }
+    .tools p{
+        font-size: 10px;
+
+    }
+    .projects h1{
+        font-size: 25px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .projects p{
+        font-size: 14px;
+    }
+    .contact h1{
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .links p{
+        font-size: 14px;
+    }
+}
+
+/*375px media queries*/
+
+
+
+@media all and (max-width:375px){
+    #overlay h1{
+        font-size: 25px;
+    }
+    .grids h1{
+        font-size: 25px;
+        text-align: center;
+        font-weight: bold;
+    }
+    .grids p{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .grids img{
+        width: 40%;
+        height: 100%;
+    }
+    .donate{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .expe h1{
+        font-size:25px;
+        font-weight: bold;
+    }
+    .expe p{
+        font-size: 14px;
+        margin:5%;
+    }
+    .grids1 h1{
+        text-align: center;
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .abli h1{
+        font-weight: bold;
+        font-size: 25px;
+    }
+    .abli p{
+        font-size: 14px;
+    }
+    .skills h1{
+        font-size: 25px;
+        text-align: center;
+        font-weight: bold;
+
+    }
+    .skills p{
+        font-size: 7px;
+        font-weight: bold;
+    }
+    .lang h1{
+        font-size: 25px;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 5%;
+    }
+    .lang p{
+        font-size: 7px;
+        font-weight: bold;
+    }
+    .tools h1{
+        font-size: 25px;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 5%;
+    }
+    .tools p{
+        font-size: 7px;
+        font-weight: bold;
+
+    }
+    .projects h1{
+        font-size: 25px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .projects p{
+        font-size: 14px;
+    }
+    .contact h1{
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .links p{
+        font-size: 12px;
+    }
+    .ayah h6{
+        font-size: 12px;
+        margin: 4%;
+    }
+    #profile h1{
+        margin-top: 110vh;
+    }
+    .footer{
+        height:130vh;
+        width: 100%;
+        background-color: #727878;
+    }
+    .projs1 a img{
+width: 100%;
+margin-bottom: 6%;
+    }
+    .projs2 a img{
+        width: 100%;
+        margin-bottom: 6%;
+            }
+            .social a{
+                text-decoration: none;
+                color: white;
+                margin-left: 5%;
+                font-size: 20px;
+            }
+}

@@ -141,6 +141,8 @@ social media
 .abli{
     border-bottom: 1px solid gray;
     display: inline-block;
+    margin-top: 2%;
+    
 }
 .abli h1{
     color: #22a39f;
@@ -158,12 +160,11 @@ social media
 
 .skills .one {
     margin-top: 2%;
-
-
-
-
-
 }
+.grids2{
+    border-bottom: 1px solid gray;
+}
+
 .projects{
     margin-top: 2%;
 }
